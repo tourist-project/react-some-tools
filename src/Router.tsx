@@ -1,13 +1,14 @@
 import React, { FC } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import { TopPage, CalculatorPage, TimerPage } from './pages'
+import { ImageSelectorPage, StopWatchPage, TopPage, TimerPage } from './pages'
 
 const Router: FC = () => (
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<TopPage />} />
-      <Route path="/calculator" element={<CalculatorPage />} />
+      <Route path="/image-selector" element={<ImageSelectorPage />} />
+      <Route path="/stop-watch" element={<StopWatchPage />} />
       <Route path="/timer" element={<TimerPage />} />
     </Routes>
   </BrowserRouter>
