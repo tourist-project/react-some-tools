@@ -1,7 +1,7 @@
 # React 入門のハンズオン
 
 このリポジトリは React の入門をハンズオン形式で行うためのリポジトリです。
-電卓などフロントエンドだけで動くツールを作りながら React を一通り触ることを目的としています。
+ストップウォッチなどフロントエンドだけで動くツールを作りながら React を一通り触ることを目的としています。
 このリポジトリを好きに fork または clone して初めてください。
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -28,4 +28,4 @@ $ yarn start
 >
 > created: 2022/11/24
 >
-> last updated: 2022/11/26
+> last updated: 2022/12/19
